@@ -1,0 +1,9 @@
+[package]
+name = "grain"
+version = "0.1.2"
+edition = "2024"
+description = "A lightweight Entity Component System (ECS) library."
+license = "MIT"
+repository = "https://github.com/telesleo/grain"
+
+[dependencies]
