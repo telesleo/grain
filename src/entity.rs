@@ -4,7 +4,7 @@ pub type EntityId = u32;
 
 pub type EntityVersion = u16;
 
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub struct Entity {
     id: EntityId,
     version: EntityVersion,
